@@ -1,4 +1,4 @@
-public class CocaCola extends Refrigerante{
+public class CocaCola extends Refrigerantes{
     //Atributos
     private char tipo; //L = latinha, V = vidro, P = Pet
     
