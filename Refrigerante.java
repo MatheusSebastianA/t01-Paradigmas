@@ -1,4 +1,4 @@
-public abstract class Refrigerante extends Bebidas{
+public abstract class Refrigerantes extends Bebidas{
     //Atributos
     protected String marca;// Coca ou Guarana
 
