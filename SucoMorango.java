@@ -42,7 +42,7 @@ public class SucoMorango extends Sucos{
         System.out.println("Adicionando gelo no suco de morango");
     }
 
-    public void adicionarAçucar(){
+    public void adicionarAcucar(){
         System.out.println("Adicionando açucar");
     }
 
