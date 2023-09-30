@@ -43,7 +43,7 @@ public class SucoAbacaxi extends Sucos{
         System.out.println("Adicionando gelo no suco de Abacaxi");
     }
 
-    public void adicionarAçucar(){
+    public void adicionarAcucar(){
         System.out.println("Adicionando açucar no suco de Abacaxi");
     }
 
