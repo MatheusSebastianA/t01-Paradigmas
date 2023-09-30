@@ -1,4 +1,4 @@
-public abstract class Bebidas implements GameBar{
+public abstract class Bebidas implements ProdutoGameBar{
     //Atributos
     protected float preco, quantidadeML;
 
