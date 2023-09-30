@@ -1,4 +1,4 @@
-public class Guarana extends Refrigerante{
+public class Guarana extends Refrigerantes{
     //Atributos
     private boolean diet; //
     
