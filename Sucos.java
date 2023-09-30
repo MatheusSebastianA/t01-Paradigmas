@@ -25,5 +25,5 @@ public abstract class Sucos extends Bebidas{
     //Métodos
     public abstract void confirmarPedido();
     public abstract void adicionarGelo();
-
+    public abstract void adicionarAcucar();
 }
