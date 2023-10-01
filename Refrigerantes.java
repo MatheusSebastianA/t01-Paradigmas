@@ -3,11 +3,10 @@ public abstract class Refrigerantes extends Bebidas{
     protected String marca;// Coca ou Guarana
 
     //Construtores
-    public Refrigerante(){
-        super();
+    public Refrigerantes(){
     }
 
-    public Refrigerante(float preco, float mililitros, String marca){
+    public Refrigerantes(float preco, int mililitros, String marca){
         super(preco, mililitros);
         this.setMarca(marca);
     }

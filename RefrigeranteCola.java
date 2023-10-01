@@ -1,13 +1,12 @@
-public class CocaCola extends Refrigerantes{
+public class RefrigeranteCola extends Refrigerantes{
     //Atributos
     private char tipo; //L = latinha, V = vidro, P = Pet
     
     //Construtores
-    public CocaCola(){
-        super();
+    public RefrigeranteCola(){
     }
 
-    public CocaCola(float preco, float mililitros, String marca, char tipo){
+    public RefrigeranteCola(float preco, int mililitros, String marca, char tipo){
         super(preco, mililitros, marca);
         this.setTipo(tipo);
     }
@@ -25,14 +24,14 @@ public class CocaCola extends Refrigerantes{
     
     //Métodos
     public void confirmarPedido(){
-        System.out.println("O pedido foi uma %c de %s de %f mls. O preço é: %f", this.tipo, this.marca, this.quantidadeML, this.preco);
+        System.out.printf("O pedido foi uma %c de %s de %d mls. O preço é: %f\n", this.tipo, this.marca, this.quantidadeML, this.preco);
     }
     
     public void adicionarGelo(){
-        System.out.println("Adicionando gelo na Coca-Cola");
+        System.out.printf("Adicionando gelo na Coca-Cola\n");
     }
 
     public void adicionarLimão(){
-        System.out.println("Adicionando limão na Coca-Cola");
+        System.out.printf("Adicionando limão na Coca-Cola\n");
     }
 }

@@ -1,13 +1,14 @@
 public abstract class Bebidas implements ProdutoGameBar{
     //Atributos
-    protected float preco, quantidadeML;
+    protected float preco;
+    protected int quantidadeML;
 
     //Construtores
     public Bebidas(){
 
     }
 
-    public Bebidas(float preco, float quantidadeML){
+    public Bebidas(float preco, int quantidadeML){
         this.setPreco(preco);
         this.setquantidadeML(quantidadeML);
     }
@@ -17,7 +18,7 @@ public abstract class Bebidas implements ProdutoGameBar{
         return preco;
     }
 
-    public float getquantidadeML(){
+    public int getquantidadeML(){
         return quantidadeML;
     }
 
@@ -25,7 +26,7 @@ public abstract class Bebidas implements ProdutoGameBar{
         this.preco = preco;
     }
 
-    public void setquantidadeML(float quantidadeML){
+    public void setquantidadeML(int quantidadeML){
         this.quantidadeML = quantidadeML;
     }
 

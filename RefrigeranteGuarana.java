@@ -1,13 +1,13 @@
-public class Guarana extends Refrigerantes{
+public class RefrigeranteGuarana extends Refrigerantes{
     //Atributos
     private boolean diet; //
     
     //Construtores
-    public Guarana(){
+    public RefrigeranteGuarana(){
         super();
     }
 
-    public Guarana(float preco, float mililitros, String marca, boolean diet){
+    public RefrigeranteGuarana(float preco, float mililitros, String marca, boolean diet){
         super(preco, mililitros, marca);
         this.setDiet(diet);
     }
@@ -16,6 +16,7 @@ public class Guarana extends Refrigerantes{
     public boolean getDiet(){
         return diet;
     }
+    
     public void setDiet(boolean diet){
         this.diet = diet;
     }
@@ -29,7 +30,7 @@ public class Guarana extends Refrigerantes{
         else
             System.out.print("não diet ");
 
-        System.out.println("de %f mls. O preço é: %f", this.quantidadeML, this.preco);
+        System.out.println("de %d mls. O preço é: %f", this.quantidadeML, this.preco);
     }
 
     public void adicionarGelo(){
