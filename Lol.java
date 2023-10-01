@@ -23,7 +23,7 @@ public class Lol extends Moba{
 
     //Métodos
     public void confirmarJogo(){
-        System.out.println("O jogo escolhido foi o Lol, com o herói %s de poder %s e build: %s", this.getheroi(), this.getpoder(), this.getBuild());
+        System.out.printf("O jogo escolhido foi o Lol, com o herói %s de poder %s e build: %s\n", this.getheroi(), this.getpoder(), this.getBuild());
     }
     
     public void trocarJogo(){
@@ -31,12 +31,12 @@ public class Lol extends Moba{
     }
 
     public String trocarHeroi(String heroi){
-        System.out.println("Trocando do herói %s para o herói %s", this.getheroi(), heroi);
+        System.out.printf("Trocando do herói %s para o herói %s\n", this.getheroi(), heroi);
         this.setheroi(heroi);
         return this.getheroi();
     }
 
     public void usarPoder(){
-        System.out.println("Usando o poder %s!", this.getpoder());
+        System.out.printf("Usando o poder %s!\n", this.getpoder());
     }
 }

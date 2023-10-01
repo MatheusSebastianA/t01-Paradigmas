@@ -23,7 +23,7 @@ public class Cs2 extends Fps{
 
     //Métodos
     public void confirmarJogo(){
-        System.out.println("O jogo escolhido foi o Cs2, no mapa %s com a arma %s e com o inventario: %s", this.getMapa(), this.getArma(), this.getInventario());
+        System.out.printf("O jogo escolhido foi o Cs2, no mapa %s com a arma %s e com o inventario: %s\n", this.getMapa(), this.getArma(), this.getInventario());
     }
     
     public void trocarJogo(){
@@ -31,12 +31,12 @@ public class Cs2 extends Fps{
     }
 
     public String trocarArma(String arma){
-        System.out.println("Trocando da arma %s para a arma %s", this.getArma(), arma);
+        System.out.printf("Trocando da arma %s para a arma %s\n", this.getArma(), arma);
         this.setArma(arma);
         return this.getArma();
     }
     public String trocarMapa(String mapa){
-        System.out.println("Trocando do mapa %s para o mapa %s", this.getMapa(), mapa);
+        System.out.printf("Trocando do mapa %s para o mapa %s\n", this.getMapa(), mapa);
         this.setMapa(mapa);
         return this.getMapa();
     }
